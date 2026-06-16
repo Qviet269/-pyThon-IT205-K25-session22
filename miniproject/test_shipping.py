@@ -1,4 +1,4 @@
-from shipping_system import  calculate_final_shipping
+from miniproject.shipping_system import  calculate_final_shipping
 
 def test_calculate_final_shipping_distance_fare():
     """Kiểm tra xem hệ thống có cộng thêm 10,000đ phụ thu đường xa (>=20km) không."""
