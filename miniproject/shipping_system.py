@@ -14,7 +14,7 @@ def get_shipping_rate(method: str, distance: int) -> float:
         # LOI RUNTIME: Thiếu raise lỗi, chỉ ghi log rồi trả về 0.0 là sai nghiệp vụ
         logger.error("Khoảng cách vận chuyển không được nhỏ hơn hoặc bằng 0")
         raise ValueError("Lỗi: không được phép âm")
-       
+
 
     # Xác định phí cơ sở theo phương thức vận chuyển
     if method == "standard":
